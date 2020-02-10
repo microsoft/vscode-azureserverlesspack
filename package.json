@@ -1,0 +1,16 @@
+{
+    "name": "vscode-azureserverlesspack",
+    "displayName": "Azure Serverless",
+    "description": "Extension pack for serverless development on Azure.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "icon": "resources/serverless-platform.png",
+    "extensionPack": [
+        "publisher.extensionName"
+    ]
+}
