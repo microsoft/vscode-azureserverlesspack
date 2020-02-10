@@ -1,16 +1,36 @@
 {
-    "name": "vscode-azureserverlesspack",
-    "displayName": "Azure Serverless",
-    "description": "Extension pack for serverless development on Azure.",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.42.0"
-    },
-    "categories": [
-        "Extension Packs"
-    ],
-    "icon": "resources/serverless-platform.png",
-    "extensionPack": [
-        "publisher.extensionName"
-    ]
+  "name": "vscode-azureserverlesspack",
+  "displayName": "Azure Serverless",
+  "publisher": "ms-azuretools",
+  "description": "Extension pack for serverless development on Azure.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.42.0"
+  },
+  "galleryBanner": {
+    "color": "#3c3c3c",
+    "theme": "dark"
+  },
+  "repository": {
+    "url": "https://github.com/microsoft/vscode-azureserverlesspack"
+  },
+  "homepage": "https://github.com/microsoft/vscode-azureserverlesspack",
+  "bugs": {
+    "url": "https://github.com/microsoft/vscode-azureserverlesspack/issues"
+  },
+  "keywords": [
+    "azure",
+    "node"
+  ],
+  "categories": [
+    "Azure",
+    "Extension Packs"
+  ],
+  "icon": "resources/serverless-platform.png",
+  "extensionPack": [
+    "ms-azuretools.vscode-azurefunctions",
+    "ms-azuretools.vscode-cosmosdb",
+    "ms-azuretools.vscode-azureeventgrid",
+    "ms-azuretools.vscode-logicapps"
+  ]
 }

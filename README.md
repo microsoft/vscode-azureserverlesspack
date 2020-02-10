@@ -1,24 +1,42 @@
-# README
+# Azure Serverless for Visual Studio Code
 
-## This is the README for your extension pack "azureserverlesspack"
+Everything you need to build and deploy [serverless](https://azure.microsoft.com/en-us/overview/serverless-computing/) or event driven apps in VS Code.
 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+_If you do not have an Azure subscription, [sign up today](https://azure.microsoft.com/en-us/free/?b=16.48) for a free account. You'll get 12 months of popular free services, **\$200** in Azure Credits to try out any combination of Azure services, and access to 25+ always free services such as Azure Container Service, DevTest Labs, and Service Fabric._
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+## What's included
 
-## For more information
+This extension pack covers everything from building serverless functions to configuring custom event topics and connecting to databases on Azure.
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+### [Azure Functions](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
 
-**Enjoy!**
+Create and build Azure Functions apps, debug them locally in VS Code, then deploy directly from your favorite editor.
 
+![Debug Functions locally](resources/functions-debug.gif)
+
+### [Azure Cosmos DB](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-cosmosdb)
+
+Browse and query your MongoDB databases both locally and in the cloud using scrapbooks with rich Intellisense then connect to Azure to manage your Cosmos DB databases with support for MongoDB, Graph (Gremlin), and SQL (previously known as DocumentDB).
+
+![Cosmos DB Scrapbooks](resources/cosmos-scrapbook.gif)
+
+### [Azure Event Grid](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureeventgrid)
+
+Create and manage Azure Event Grid topics and subscriptions. Easily generate and send mock events to your subscriptions for rapid development.
+
+![Create Mock events](resources/create-mock-eventgrid.png)
+
+### [Azure Logic Apps](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-logicapps)
+
+Quickly create, debug, and manage Azure Logic Apps and Integration Accounts directly from within VS Code.
+
+![Open in Designer](resources/open-in-designer.gif)
+
+**Happy coding!**
 
 # Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+This project welcomes contributions and suggestions. Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 
