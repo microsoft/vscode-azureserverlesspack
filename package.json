@@ -3,7 +3,7 @@
   "displayName": "Azure Serverless",
   "publisher": "ms-azuretools",
   "description": "Extension pack for serverless development on Azure.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.42.0"
   },
@@ -31,6 +31,7 @@
     "ms-azuretools.vscode-azurefunctions",
     "ms-azuretools.vscode-cosmosdb",
     "ms-azuretools.vscode-azureeventgrid",
-    "ms-azuretools.vscode-logicapps"
+    "ms-azuretools.vscode-logicapps",
+    "ms-azuretools.vscode-apimanagement"
   ]
 }

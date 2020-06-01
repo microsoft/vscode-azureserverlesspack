@@ -14,9 +14,9 @@ Create and build Azure Functions apps, debug them locally in VS Code, then deplo
 
 ![Debug Functions locally](resources/functions-debug.gif)
 
-### [Azure Cosmos DB](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-cosmosdb)
+### [Azure Databases](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-cosmosdb)
 
-Browse and query your MongoDB databases both locally and in the cloud using scrapbooks with rich Intellisense then connect to Azure to manage your Cosmos DB databases with support for MongoDB, Graph (Gremlin), and SQL (previously known as DocumentDB).
+Browse and query your MongoDB databases both locally and in the cloud using scrapbooks with rich Intellisense then connect to Azure to manage your PostgreSQL and Cosmos DB databases with support for MongoDB, Graph (Gremlin), and SQL (previously known as DocumentDB).
 
 ![Cosmos DB Scrapbooks](resources/cosmos-scrapbook.gif)
 
@@ -31,6 +31,12 @@ Create and manage Azure Event Grid topics and subscriptions. Easily generate and
 Quickly create, debug, and manage Azure Logic Apps and Integration Accounts directly from within VS Code.
 
 ![Open in Designer](resources/open-in-designer.gif)
+
+## [Azure API Management](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-apimanagement)
+
+Perform common management operations on your Azure API Management service instances without switching away from Visual Studio Code.
+
+![Import Functions](resources/import-function.gif)
 
 **Happy coding!**
 
