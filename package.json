@@ -33,5 +33,8 @@
     "ms-azuretools.vscode-azureeventgrid",
     "ms-azuretools.vscode-logicapps",
     "ms-azuretools.vscode-apimanagement"
-  ]
+  ],
+  "devDependencies": {
+    "vsce": "^2.13.0"
+  }
 }
