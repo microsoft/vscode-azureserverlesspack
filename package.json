@@ -34,6 +34,9 @@
     "ms-azuretools.vscode-logicapps",
     "ms-azuretools.vscode-apimanagement"
   ],
+  "scripts": {
+    "ci-package": "vsce package"
+  },
   "devDependencies": {
     "vsce": "^2.13.0"
   }
