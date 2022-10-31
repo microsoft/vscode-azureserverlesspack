@@ -3,7 +3,7 @@
   "displayName": "Azure Serverless",
   "publisher": "ms-azuretools",
   "description": "Extension pack for serverless development on Azure.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.42.0"
   },
