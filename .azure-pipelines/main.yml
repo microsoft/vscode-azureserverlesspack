@@ -1,9 +1,32 @@
 jobs:
-- job: Windows
-  pool:
-    vmImage: windows-latest
-  steps:
-  - template: compliance/compliance.yml
-  - template: common/setup.yml
-  - template: common/governance.yml   # Force governance before test to avoid false-positives.
-  - template: common/publish-vsix.yml
+  - job: Windows
+    pool:
+      vmImage: windows-latest
+    steps:
+      - template: job-steps.yml
+
+  - job: Linux
+    pool:
+      vmImage: ubuntu-latest
+    steps:
+      - template: job-steps.yml
+    variables:
+      Codeql.Enabled: true
+
+trigger:
+  branches:
+    include:
+      - '*'
+
+pr:
+  branches:
+    include:
+      - main
+
+schedules:
+  - cron: "0 0 * * *"
+    displayName: Daily midnight build
+    branches:
+      include:
+        - main
+    always: false
